@@ -5,7 +5,7 @@ pipeline {
     stage('checkout stage') {
       steps {
         sh 'rm -rf Ansible_project'
-        sh 'git clone https://github.com/88janu/prome.git'
+        sh 'git clone https://github.com/Ranjiniumesh/prome.git'
       }
     }
     stage('running playbook') {
